@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body class="grid place-content-center h-screen bg-veryLightBlue p-8">
+    <h1 class="visually-hidden">Welcome to my webiste</h1>
+
+    <!-- Order Summary Card -->
+    <article class="w-full max-w-xs bg-white rounded-3xl container-shadow">
+      <article class="w-full">
+        <img
+          src="./images/illustration-hero.svg"
+          class="w-full rounded-t-3xl"
+          alt="An illustration of a woman who is listening to music and dancing."
+        />
+      </article>
+
+      <section class="my-5 mx-6">
+        <h2 class="text-center text-darkBlue m-3 text-xl font-bold">
+          Order Summary
+        </h2>
+        <p class="text-desaturatedBlue text-center w-9/10 mx-auto mb-4">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+
+        <article
+          class="flex items-center gap-4 bg-veryLightBlue p-3 mb-4 rounded-xl"
+        >
+          <div class="">
+            <img src="./images/icon-music.svg" alt="music icon" />
+          </div>
+
+          <article class="flex justify-between items-center w-full">
+            <section>
+              <h3 class="text-darkBlue font-bold">Annual Plan</h3>
+              <p class="text-desaturatedBlue">$59.99/year</p>
+            </section>
+
+            <a
+              href="#"
+              class="text-brightBlue font-bold underline hover:no-underline hover:opacity-75 transition-all ease-linear duration-200"
+              >Change</a
+            >
+          </article>
+        </article>
+
+        <button
+          type="button"
+          class="block mx-auto w-full bg-brightBlue text-white font-semibold py-2 rounded-lg container-shadow hover:opacity-60 transition-all ease-linear duration-200"
+        >
+          Proceed to Payment
+        </button>
+        <button
+          type="button"
+          class="block mx-auto w-full text-desaturatedBlue font-bold py-2 rounded-lg hover:text-darkBlue transition-all ease-linear duration-200"
+        >
+          Cancel Order
+        </button>
+      </section>
+    </article>
+  </body>
+</html>
