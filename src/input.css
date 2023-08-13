@@ -13,3 +13,26 @@
 .container-shadow {
   box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.1);
 }
+
+/* Line divider */
+.custom-shape-divider-bottom {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(140% + 1.3px);
+  height: 225px;
+}
+
+.custom-shape-divider-bottom .shape-fill {
+  fill: hsl(225, 100%, 98%);
+}
