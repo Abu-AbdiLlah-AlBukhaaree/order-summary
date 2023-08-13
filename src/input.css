@@ -35,4 +35,6 @@
 
 .custom-shape-divider-bottom .shape-fill {
   fill: hsl(225, 100%, 98%);
+  border-bottom-color: hsl(225, 100%, 98%);
+  /* check if the above line solves the extra background line problem */
 }
